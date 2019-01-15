@@ -1,0 +1,20 @@
+body {
+    font-family: sans-serif;
+    max-width: 50em;
+    border: 2px solid black;
+    padding: 2em;
+    margin: 2em auto; /* top+bottem */
+}
+h1 {
+    color: darksalmon
+}
+.poem {
+   font-style: italic;
+   color: darkolivegreen 
+}
+.poem strong{
+    color: darkslategray
+}
+ul li {
+    color: firebrick
+}
