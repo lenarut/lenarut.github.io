@@ -6,27 +6,31 @@ body {
     margin: 2em auto; /* top+bottem */
 }
 h2 {
-    color: darksalmon
+    color: #A6A6A8 
+
 }
 .size {
-    color: darksalmon
+    color: #A6A6A8 
 }
 .poem {
    font-style: italic;
-   color: darkslategray 
+   color: #407053
 }
 .poem strong{
-    color: darksalmon
+    color: #294936
 }
 ol li {
-    color: darkslategray
+    color: #407053
 }
 ul li {
-    color: darkslategray
+    color: #294936
 }
 .elvis {
-    color: darkslategray
+    color: #407053
 }
 .elvis strong {
-    color: darksalmon
+    color: #294936
+}
+em {
+    color: #407053
 }
