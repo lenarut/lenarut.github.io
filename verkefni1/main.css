@@ -5,16 +5,28 @@ body {
     padding: 2em;
     margin: 2em auto; /* top+bottem */
 }
-h1 {
+h2 {
+    color: darksalmon
+}
+.size {
     color: darksalmon
 }
 .poem {
    font-style: italic;
-   color: darkolivegreen 
+   color: darkslategray 
 }
 .poem strong{
+    color: darksalmon
+}
+ol li {
     color: darkslategray
 }
 ul li {
-    color: firebrick
+    color: darkslategray
+}
+.elvis {
+    color: darkslategray
+}
+.elvis strong {
+    color: darksalmon
 }
