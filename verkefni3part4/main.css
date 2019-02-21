@@ -54,3 +54,8 @@ body {
   font-family: 'Felipa', cursive;
   color: black
 }
+.fix {
+    font-family: serif;
+    color: black;
+    font-size: 15px;
+}
