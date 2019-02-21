@@ -25,7 +25,8 @@ body {
   footer{
     grid-area: footer;
     padding: .3in;
-    text-align: center
+    text-align: center;
+    font-family: 'Felipa', cursive;
   }
   .container{
     display: grid;
