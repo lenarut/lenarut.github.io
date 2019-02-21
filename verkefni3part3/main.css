@@ -41,6 +41,7 @@ body {
     padding-left: 1in
   }
   header {
+    font-family: 'Felipa', cursive;
     grid-area: header;
     word-spacing: 60px;
     padding: 20px;
@@ -53,5 +54,9 @@ body {
   border: 1px solid rgb(177, 68, 54);
   padding: 1ex;
   background-color: rgb(119, 119, 119);
+  color: black
+}
+.font {
+  font-family: 'Felipa', cursive;
   color: black
 }
