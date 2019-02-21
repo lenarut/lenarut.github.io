@@ -8,7 +8,7 @@ body {
     'footer';
 }
 header{
-  font-family: 'Sawarabi Mincho', sans-serif;
+  font-family: 'Miss Fajardose', cursive;
   grid-area: header;
   text-align: center;
 }
@@ -40,6 +40,7 @@ img {
   padding: 1ex
 }
 .space{
+  font-family: 'Miss Fajardose', cursive;
   grid-area: space;
   color: white;
   text-align: center;
@@ -52,6 +53,9 @@ img {
   padding: 1ex;
   background-color: rgb(250, 198, 203);
   color: black
+}
+.font {
+  font-family: 'Miss Fajardose', cursive;
 }
 .container{
   display: grid;
