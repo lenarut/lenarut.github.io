@@ -50,13 +50,13 @@ img {
 .first {
   border: 1px solid rgb(77, 77, 77);
   padding: 1ex;
-  background-color: rgb(255, 152, 161);
+  background-color: rgb(250, 198, 203);
   color: black
 }
 .container{
   display: grid;
   grid-template-rows: 1fr 0.1fr 1fr;
-  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-columns: 1fr 4fr 2fr;
   grid-template-areas: 
     "header header header"
     "space space space"
