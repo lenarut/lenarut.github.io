@@ -1,0 +1,84 @@
+body {
+    background-color: #E8DD9C;
+    display: grid;
+    grid-template-areas: 
+      'header' 
+      'nav'
+      'content'
+      'footer';
+  }
+  header{
+    font-family: 'Miss Fajardose', cursive;
+    grid-area: header;
+    text-align: center;
+  }
+  nav{
+    font-family: 'Fahkwang', sans-serif;
+    color: rgb(85, 85, 85);
+    grid-area: nav;
+    border: 1px solid;
+    padding: 1ex;
+    font-size: 50%
+  }
+  main{
+    color: rgb(39, 39, 39);
+    font-family: 'Open Sans Condensed', sans-serif;
+    grid-area: main;
+    border: 1px solid;
+    padding: 1ex;
+  }
+  footer{
+    grid-area: footer;
+  }
+  img {
+    max-width: 50%;
+    max-height: auto;
+  }
+  .shit{
+    color: rgb(92, 90, 90);
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid;
+    padding: 1ex;
+    font-size: 80%
+  }
+  .space{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    grid-area: space;
+    color: white;
+    text-align: center;
+    word-spacing: 60px;
+    padding: 20px;
+    
+  }
+  .first {
+    border: 1px solid rgb(77, 77, 77);
+    padding: 1ex;
+    background-color: rgb(196, 196, 196);
+    color: black
+  }
+  .font {
+    font-family: 'Oswald', sans-serif;
+  }
+  .other {
+    font-family: 'Fahkwang', sans-serif;
+    grid-area: other;
+    border: 1px solid;
+    padding: 1ex;
+    color: rgb(85, 85, 85);
+    font-size: 50%
+  }
+  .bold {
+      font: bold
+  }
+  .container{
+    display: grid;
+    grid-template-rows: 0.1fr 1fr 1fr;
+    grid-template-columns: 0.3fr 4fr 2fr 0.3fr;
+    grid-template-areas: 
+      "header header header header"
+      "nav main shit other"
+      "space space space space"
+      "footer footer footer footer";
+    grid-gap: .75em;
+  }
+  

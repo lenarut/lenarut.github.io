@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(41, 8, 8);
+    display: grid;
+    grid-template-areas: 
+      'header' 
+      'nav'
+      'content'
+      'footer';
+  }
+  nav{
+    font-family: fantasy;
+    font: bold;
+    color: rgb(177, 68, 54);
+    grid-area: nav;
+    font-size: 2cm;
+    padding-left: 1in;
+  }
+  main{
+    color: rgb(26, 26, 26);
+    font-family: 'Open Sans Condensed', sans-serif;
+    grid-area: main;
+    padding: 2ex;
+    background-color: rgb(119, 119, 119)
+  }
+  footer{
+    grid-area: footer;
+    padding: .3in;
+    text-align: center;
+    font-family: 'Felipa', cursive;
+  }
+  .container{
+    display: grid;
+    grid-template-rows: 0.5fr 5fr;
+    grid-template-columns: 2fr 4fr;
+    grid-template-areas: 
+      "header header header"
+      "nav main img"
+      "footer footer footer";
+    grid-gap: .75em;
+  }
+  .img {
+    padding-left: 1in
+  }
+  header {
+    font-family: 'Felipa', cursive;
+    grid-area: header;
+    word-spacing: 60px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid;
+    color: black;
+    background-color: rgb(119, 119, 119)
+}
+.first {
+  border: 1px solid rgb(177, 68, 54);
+  padding: 1ex;
+  background-color: rgb(119, 119, 119);
+  color: black
+}
+.font {
+  font-family: 'Felipa', cursive;
+  color: black
+}

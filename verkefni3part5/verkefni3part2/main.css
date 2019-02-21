@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(232, 255, 229);
+  display: grid;
+  grid-template-areas: 
+    'header' 
+    'nav'
+    'content'
+    'footer';
+}
+header{
+  font-family: 'Miss Fajardose', cursive;
+  grid-area: header;
+  text-align: center;
+}
+nav{
+  font-family: 'Fahkwang', sans-serif;
+  color: gray;
+  grid-area: nav;
+  border: 1px solid;
+  padding: 1ex
+}
+main{
+  color: rgb(92, 90, 90);
+  font-family: 'Open Sans Condensed', sans-serif;
+  grid-area: main;
+  border: 1px solid;
+  padding: 1ex
+}
+footer{
+  grid-area: footer;
+}
+img {
+  max-width: 50%;
+  max-height: auto;
+}
+.shit{
+  color: rgb(92, 90, 90);
+  font-family: 'Open Sans Condensed', sans-serif;
+  border: 1px solid;
+  padding: 1ex
+}
+.space{
+  font-family: 'Miss Fajardose', cursive;
+  grid-area: space;
+  color: white;
+  text-align: center;
+  word-spacing: 60px;
+  padding: 20px;
+  
+}
+.first {
+  border: 1px solid rgb(77, 77, 77);
+  padding: 1ex;
+  background-color: rgb(250, 198, 203);
+  color: black
+}
+.font {
+  font-family: 'Miss Fajardose', cursive;
+}
+.container{
+  display: grid;
+  grid-template-rows: 1fr 0.1fr 1fr;
+  grid-template-columns: 1fr 4fr 2fr;
+  grid-template-areas: 
+    "header header header"
+    "space space space"
+    "nav main shit"
+    "footer footer footer";
+  grid-gap: .75em;
+}
